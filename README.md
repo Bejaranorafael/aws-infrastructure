@@ -3,16 +3,16 @@
 ![Terraform](img.shields.io)
 ![AWS](img.shields.io)
 
-## Ì≥å Prop√≥sito del Proyecto
+## Prop√≥sito del Proyecto
 Este repositorio contiene una estructura profesional de infraestructura automatizada en AWS utilizando **Terraform**. El dise√±o sigue el principio **DRY (Don't Repeat Yourself)** y est√° preparado para escalar en entornos corporativos mediante el uso de m√≥dulos personalizados y gesti√≥n de estado remoto.
 
-## ÌøóÔ∏è Arquitectura
+## rquitectura
 La infraestructura despliega:
 - **Networking:** VPC personalizada, Subnet P√∫blica, Internet Gateway y Tablas de Ruteo.
 - **Compute:** Instancias EC2 (Amazon Linux 2023) con Security Groups configurados para tr√°fico web (Puerto 80).
 - **Seguridad:** Aislamiento de recursos y gesti√≥n de estado cifrado.
 
-## Ì≥Ç Estructura del Repositorio
+##  Estructura del Repositorio
 ```text
 .
 ‚îú‚îÄ‚îÄ modules/                # M√≥dulos reutilizables (Core)
